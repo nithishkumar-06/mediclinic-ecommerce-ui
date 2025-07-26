@@ -1,0 +1,150 @@
+ul,li{
+    display: inline;
+}
+
+#hed{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+#hli{
+    margin-left: 20px;
+    background-color: #79c2d0;
+
+}
+
+
+.btnn{
+    padding: 8px;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #35bcbf ;
+    border-radius: 5px;
+    background-color: #5081B3;
+    color: white;
+    margin-right: 0px;
+}
+
+header,footer{
+    background-color: #01316D;
+    
+}
+
+#ini{
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+    top: 18px;
+    right : 30px;
+    border: 1px solid white;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fli,#ffli{
+    margin-right: 9%;
+    color: white;
+}
+
+
+#dd{
+    display: inline;
+    margin: 0 20px;
+}
+
+h3{
+    font-family:Calibri (Body);
+}
+
+#ds{
+    border: 1px solid rgb(128, 128, 128,0.2);
+    margin-top: 2px;
+}
+
+
+table{
+    width: 99%;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+td{
+    font-size: 1.25rem;
+    color: gray;
+}
+
+
+.hh1{
+    background-color: #79c2d0;
+    border: 1px solid white;
+}
+
+#dash{
+    color : gray;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+
+.div2{
+
+    /* border:1px solid rgba(128, 128, 128,0.3); */
+
+    height:100px;
+
+    display:flex;
+}
+.div21{
+    border:1px solid rgba(128, 128, 128,0.3);
+    margin:10px 10px 5px 10px;
+    padding-left:0px;
+    height:120px;
+    width: 100%;
+}
+
+.input{
+    text-align: center;
+    margin-top:20px;
+    margin-left:20px;
+    width:150px;
+    height:20px;
+    font-size:18px;
+    font-family: sans-serif;
+    padding:5px;
+    background-color: rgba(191, 214, 218, 0.2);
+    border:1px solid rgb(128, 136, 138);
+}
+
+#adrs{
+    width: 520px;
+}
+
+h4{
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family:Calibri (Body);
+    color: gray;
+}
+
+.d2{
+    margin-top: 40px;
+}
+
+#pn{
+    width: 330px;
+}
+
+.d3{
+    margin-top: 40px;
+    padding-left: 1180px;
+    padding-top: 10px;
+    
+}

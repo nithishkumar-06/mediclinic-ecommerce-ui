@@ -1,0 +1,27 @@
+<div id="main">
+    <body>
+      <div>
+        <h1>MEDICLINIC</h1>
+        <form [formGroup]="regform" (ngSubmit)="sub()">
+          <input type="text" placeholder=" Username" [(ngModel)]="nam" id="nn" (click)="clrdiv()" formControlName="un">
+          <br>
+          <span *ngIf="fn['un'].errors?.['minlength'] && fn['un'].touched">*min length 5 required</span>
+          <span *ngIf="fn['un'].errors?.['required'] && fn['un'].touched">*username required</span>
+          <br>
+          <input type="password" placeholder=" New Password" [(ngModel)]="newpas" (click)="mis()" formControlName="unp"><br>
+          <span *ngIf="fn['unp'].errors?.['required'] && fn['unp'].touched">*New password required</span>
+          <span *ngIf="fn['unp'].errors?.['pattern'] && fn['unp'].touched">*an upperCase, a lowerCase, a number, a special character required</span>
+          <br>
+          <input type="password" placeholder="Confirm Password" [(ngModel)]="cnewpas" formControlName="ucnp"><br>
+          <span *ngIf="fn['ucnp'].errors?.['required'] && fn['ucnp'].touched">*confirm password required</span>
+          <span *ngIf="fn['ucnp']==fn['unp'] && fn['ucnp'].touched">*password mismatch</span>
+          <span>{{datt}}</span>
+          <button type="submit" >Change</button><br>
+          <br>
+          <p style="display: inline;">Have you remember the password ?</p><br><a type="text" id = "reg" [routerLink]="['/login']" >Sign in</a> 
+        </form>
+        <br>
+        <br>
+      </div>
+    </body>
+    </div>

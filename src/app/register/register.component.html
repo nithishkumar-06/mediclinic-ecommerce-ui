@@ -1,0 +1,32 @@
+<div id="main">
+<body>
+    <div>
+      <form method="post" [formGroup]="regform" (ngSubmit)="reg()">
+        <input type="text" placeholder=" Username" formControlName="un" [(ngModel)]="namm"  id="nn" ><br>
+        <span *ngIf="fn['un'].errors?.['required'] && fn['un'].touched">*username required</span>
+        <br>  
+      <input type="password" placeholder=" Password" formControlName="ps" [(ngModel)]="pass"  ><br>
+        <span *ngIf="fn['ps'].errors?.['required'] && fn['ps'].touched">*password required</span><br>
+        <input type="text" placeholder=" First name"  formControlName="fn" [(ngModel)]="fnam" ><br>
+        <span *ngIf="fn['fn'].errors?.['required'] && fn['fn'].touched">*firstname required</span>
+        <br>
+        <input type="text" placeholder=" Last name"  formControlName="ln" [(ngModel)]="lnam" ><br>
+        <span *ngIf="fn['ln'].errors?.['required'] && fn['ln'].touched">*lastname required</span>
+        <br>
+        <input type="email" placeholder=" Email"  formControlName="em" [(ngModel)]="ema" ><br>
+        <span *ngIf="fn['em'].errors?.['required'] && fn['em'].touched">*email required</span>
+        <br>
+        <input type="tel" placeholder=" Phone Number"   formControlName="nm" [(ngModel)]="num"><br>
+        <span *ngIf="fn['nm'].errors?.['required'] && fn['nm'].touched">*phone number required</span>
+        <br>
+        <input type="text" placeholder=" Location"  formControlName="lc" [(ngModel)]="loc" ><br>
+        <span *ngIf="fn['lc'].errors?.['required'] && fn['lc'].touched">*location required</span>
+        <br>
+        <input type="text" placeholder=" Role" formControlName="rl" [(ngModel)]="role" ><br>
+        <span *ngIf="fn['rl'].errors?.['required'] && fn['rl'].touched">*role required</span>
+        <br>
+        <button  type="submit" [disabled]="!regform.valid" >Register</button>
+      </form>
+    </div>
+  </body>
+</div>

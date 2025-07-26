@@ -1,0 +1,90 @@
+div{
+    padding: 8px ;
+}
+
+h1,form{
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    color: red;
+}
+#spl{
+    width: 10%;
+    display: inline;
+    border-top: 1px solid #008299;
+}
+
+#for{
+    margin-left: 10px;
+}
+
+input{
+    height :  40px;
+    width: 200px;
+    border-radius: 5px;
+    border : 1px solid gray;
+    font-size: 1.25rem;
+}
+hr{
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-top: 1px solid #008299;
+}
+#mem{
+    position: absolute;
+    top : 472px;
+    left: 679px;
+    font-size: 0.85rem;
+}
+
+#reg{
+    margin-right: 10px;
+}
+button{
+    width: 210px;
+    height :  50px;
+    margin-bottom: 5px;
+    background-color: #008299;
+    color: white;
+    border: 2px solid #35bcbf;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+
+body{
+    width: 22%;
+    background-color: white;
+    margin : 120px auto;
+}
+
+a,#mem{
+    color: #008299;
+}
+
+hr{
+    color: #008299;
+}
+
+#main{
+    background-color: #008299;
+    margin: 0;
+    height: 641px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button :hover{
+    color: black;
+}
+
+#inv{
+    position: absolute;
+    top : 315px;
+    left: 610px;
+    color: red;
+}

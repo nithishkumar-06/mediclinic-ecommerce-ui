@@ -1,0 +1,86 @@
+<div id="title">PATIENT PROFILE</div>
+<hr>
+<div class="box">
+    <div class="head">Patient details</div>
+    <div class="subdiv1">
+        <div class="subdiv2">Patient name: {{patfnam+' '+patlnam}}</div>
+        <div class="subdiv2">Date of birth : {{patdob}}</div>
+        <div class="subdiv2">Phone Number : {{patphn}}</div>
+        <div class="buttons"><button (click)="e1()">Edit</button></div>
+    </div>
+    <div class="subdiv1">
+        <div class="subdiv2">Address : {{patadd}}</div>
+    </div>
+</div>
+
+<div class="box">
+    <div class="head">Prescriber details</div>
+    <div class="subdiv1">
+        <div class="subdiv2">Prescriber name: {{perfnam+' '+perlnam}}</div>
+        <div class="subdiv2">Date of birth : {{perdob}}</div>
+        <div class="subdiv2">Phone Number : {{perphn}}</div>
+        <div class="buttons"><button>Edit</button></div>
+    </div>
+    <div class="subdiv1">
+        <div class="subdiv2">Address : {{peradd}}</div>
+    </div>
+</div>
+
+<div class="box">
+    <div class="head">Product details</div>
+    <div class="subdiv1">
+        <div class="subdiv2">Product name: {{proname}}</div>
+        <div class="subdiv2">Number of Dose : {{dose}}</div>
+        <div class="subdiv2">Refill Count : {{coun}}</div>
+        <div class="buttons"><button>Edit</button></div>
+    </div>
+    <div class="subdiv1">
+        <div class="subdiv2">Direction : {{dir}}</div>
+    </div>
+</div>
+
+
+<div id="main" *ngIf="pop1">
+    <body>
+      <div>
+        <div id="tp">
+            <p>Patient Details</p>
+            <img src="https://cdn-icons-png.flaticon.com/128/5368/5368396.png" alt="" (click)="cancel()">
+        </div>
+        <div id="con">
+        <br>
+        <form >
+            <table>
+                <tr>
+                    <td class="pp">First Name : </td>
+                    <td class="pp"><input type="text" placeholder=" Name" id="nn" [(ngModel)]="epatfnam" [ngModelOptions]="{standalone: true}"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="pp">Last Name : </td>
+                    <td class="pp"><input type="text" placeholder=" Name" id="nn" [(ngModel)]="epatlnam" [ngModelOptions]="{standalone: true}"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="pp">DOB : </td>
+                    <td class="pp"><input type="text" onfocus='type="date"'placeholder="DOB" [(ngModel)]="epatdob" [ngModelOptions]="{standalone: true}"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="pp">Phone : </td>
+                    <td class="pp"><input type="text" placeholder=" Phone" id="nn" [(ngModel)]="epatphn" [ngModelOptions]="{standalone: true}"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="pp">Address : </td>
+                    <td class="pp"><input type="text" placeholder=" Address" id="nn" [(ngModel)]="epatadd" [ngModelOptions]="{standalone: true}"></td>
+                </tr>
+            </table>
+            <br>
+          <button type="button" class="btnn bta" (click)="sub1()">Submit</button> <button type="button" class="btnn btt" (click)="cancel()">Cancel</button><br>
+        </form>
+        <br>
+        </div>
+      </div>
+    </body>
+</div>

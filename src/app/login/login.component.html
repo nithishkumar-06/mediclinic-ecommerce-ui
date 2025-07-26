@@ -1,0 +1,18 @@
+<div id="main">
+<body>
+  <div>
+    <h1>MEDICLINIC</h1>
+    <form >
+      <input type="text" placeholder=" Username" [(ngModel)]="nam" [ngModelOptions]="{standalone: true}" id="nn" >
+      <br>
+      <br>
+      <input type="password" placeholder=" Password" [(ngModel)]="pas" [ngModelOptions]="{standalone: true}"><br>
+      <p id="inv" *ngIf="ic">*invalid credentials!!  </p>
+      <button type="button"  (click)="sub()">Sign On</button><br>
+      <a type="text" id = "reg" [routerLink]="['/register']" >Register</a> <hr id="spl"><a id="for" [routerLink]="['/forgot']">Forgot Password?</a>
+    </form>
+    <hr>
+    <p id="mem">Member of Mediclinic</p>
+  </div>
+</body>
+</div>

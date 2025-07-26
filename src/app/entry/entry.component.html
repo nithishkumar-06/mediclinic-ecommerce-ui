@@ -1,0 +1,44 @@
+<div [formGroup]="dataentryform">
+    <h3 id="dash">DATA ENTRY</h3>
+    <hr id="ds">
+    <div class="div2">
+    <div class="div21">
+        <h4>Patient Details</h4>
+        <input class="input" type="text" placeholder="First Name"  [(ngModel)]="patfnam" [readonly]="d1" formControlName="fnam">
+        <input class="input"type="text" placeholder="Last Name" [(ngModel)] = "patlnam" [readonly]="d1" formControlName="lnam">
+        <input class="input" type="text" onfocus='type="date"' placeholder="DOB" [(ngModel)]="patdob" [readonly]="d1" formControlName="date">
+        <input class="input"type="text" placeholder="Phone" [(ngModel)] = "patphn" [readonly]="d1" formControlName="phone">
+        <input class="input" id="adrs" type="text" type="text" placeholder="Address" [(ngModel)] = "patadd" [readonly]="d1" formControlName="address">
+        
+    </div>
+</div>
+<div class="div2 d2">
+        
+    <div class="div21" >
+        <h4>Prescriber Details</h4>
+        <input class="input" type="text" placeholder="First Name" [(ngModel)]="perfnam" [readonly]="d2"formControlName="fnampre">
+        <input class="input"type="text" placeholder="Last Name"  [(ngModel)] = "perlnam" [readonly]="d2"formControlName="lnampre">
+        <input class="input" type="text" placeholder="Location"  [(ngModel)]="perdob" [readonly]="d2" formControlName="datepre">
+        <input class="input"type="text" placeholder="Phone"  [(ngModel)] = "perphn" [readonly]="d2" formControlName="phonepre">
+        <input class="input" id="adrs" type="text" type="text"  placeholder="Address" [(ngModel)]="peradd" [readonly]="d2" formControlName="addresspre">
+        
+    </div>
+</div>
+<div class="div2 d2">
+        
+    <div class="div21">
+        <h4>Product Details</h4>
+        <input class="input" id="pn" type="text" placeholder="Product Name"  [(ngModel)] = "proname" [readonly]="d3" formControlName="prodnam">
+        <input class="input" type="text" placeholder="No. Of Dose" [(ngModel)]="dose" [readonly]="d3" formControlName="dosenum">
+        <input class="input"type="text" placeholder="Refill Count" [(ngModel)] = "coun" [readonly]="d3" formControlName="count">
+        <input class="input" id="adrs" type="text" placeholder="How to take the Dose"  [(ngModel)]="dir" [readonly]="d3" formControlName="direct">
+        
+    </div>
+    
+</div>
+<div class="div2 d3">
+    <div id="btu">
+    <button id="button" class="btnn" > Cancel </button>
+    <button class="btnn" style="margin-left: 20px;" (click)="sub()">Submit</button>
+</div>
+</div></div>

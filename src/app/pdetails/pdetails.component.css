@@ -1,0 +1,242 @@
+
+
+.box1{
+
+    border:1px solid rgba(128, 128, 128,0.4);
+
+    text-transform: uppercase;
+
+    color:grey;
+
+    font-family: sans-serif;
+
+    padding:4px 10px;
+
+    font-size: 18px;
+
+}
+
+.box{
+
+    border:1px solid rgba(128, 128, 128,0.4);
+
+    color:grey;
+
+    margin:8px 8px;
+
+    padding:25px 0 40px 0;
+
+}
+
+table{
+
+    margin-left:50px;
+
+}
+
+td{
+
+    width:380px;
+
+    color:rgb(170, 170, 170);
+
+    font-weight:bold;
+
+}
+
+tr{
+
+   height:20px;
+
+}
+
+.button{
+
+    margin-right:25px;
+
+    margin-left: 40px;
+
+    float:right;
+
+ 
+
+}
+
+/* .box3{
+
+    border:1px solid rgba(128, 128, 128,0.4);
+
+    color:grey;
+
+    margin:8px 8px;
+
+    padding:25px 0 40px 0;
+
+}
+
+.box4{
+
+    border:1px solid rgba(128, 128, 128,0.4);
+
+    color:grey;
+
+    margin:8px 8px;
+
+    padding:25px 0 40px 0;
+
+} */
+
+.title{
+
+    color:rgb(170, 170, 170);
+
+    font-size: 15px;
+
+    padding: 5px 15px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+button{
+
+    margin-right:12px;
+
+    width:80px;
+
+    height:30px;
+
+    text-align: center;
+
+    font-family: sans-serif;
+
+    color:white;
+
+    background-color: rgb(17, 144, 175);
+
+    border:0px;
+
+    border-radius: 5px;
+
+    font-size:18px;
+
+   
+
+}
+
+
+/* ********* pop up ********** */
+
+div{
+    padding-top: 0px;
+}
+
+img{
+    width: 6%;
+    
+}
+
+#con{
+    background-color: rgb(128, 128, 128,0.5);
+}
+
+#tp{
+    background-color: gray;
+    text-align: center;
+}
+
+#spl{
+    width: 10%;
+    display: inline;
+    border-top: 1px solid #008299;
+}
+
+#for{
+    margin-left: 10px;
+}
+
+
+#mem{
+    position: absolute;
+    top : 472px;
+    left: 679px;
+    font-size: 0.85rem;
+}
+
+#reg{
+    margin-right: 10px;
+}
+
+
+body{
+    width: 24%;
+    background-color: white;
+    margin : 120px auto;
+}
+
+a,#mem{
+    color: #008299;
+}
+
+.bta,.btnn{
+    background-color: gray;
+    border: black;
+}
+
+#main{
+    background-color: rgb(128, 136, 138,0.8);
+    margin: 0px;
+    height: 574px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 99.7%;
+    border: 2px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+button :hover{
+    color: black;
+}
+
+
+table{
+    margin-left: 20px;
+}
+
+p{
+    margin-top: 8px;
+    display: inline-block;
+    margin-right: 180px;
+}
+
+
+.btt{
+    margin-left: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+hr{
+    margin: 0 auto;
+}
+
+.pp{
+    color: black;
+}
+
+
+
+
+
+
+
+
+

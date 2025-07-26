@@ -1,0 +1,20 @@
+[
+  {
+  "firstName" : "Admin",
+  "lastName" : "Admin",
+  "email" : "admin@gmail.com",
+  "number" : "9963456578",
+  "location" : "chennai",
+  "role" : "pharmacist"
+  },
+  {
+      "firstName" : "Nithish",
+      "lastName" : "kumar",
+      "email" : "nk@gmail.com",
+      "number" : "808425224",
+      "location" : "gingee",
+      "role" : "doctor"
+      }
+  
+ ]
+

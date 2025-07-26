@@ -1,0 +1,53 @@
+div{
+    padding: 8px ;
+}
+
+form{
+    text-align: center;
+    margin-top: 0px;
+}
+
+button{
+    width: 250px;
+    height :  50px;
+    background-color: #008299;
+    color: white;
+    border: 2px solid #35bcbf;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+span{
+    color: red;
+    text-align: left;
+}
+
+input{
+    height :  40px;
+    width: 240px;
+    border-radius: 5px;
+    border : 1px solid gray;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+hr{
+    width: 40%;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+body{
+    width: 25%;
+    height : 650px;
+    background-color: white;
+    margin : 0px auto;
+}
+
+#main{
+    background-color: #008299;
+    height: 641px;
+    margin: 0;
+}
+
+
+

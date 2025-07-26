@@ -1,0 +1,82 @@
+<div>
+    <h3 id="dash">DASHBOARD</h3>
+    <hr id="ds">
+    <div class="div2">
+    <div class="div21">
+        <input class="input" type="text" onfocus='type="date"'placeholder="DOB" [(ngModel)]="ddob">
+        <input class="input" type="text" placeholder="First Name" [(ngModel)]="fnam">
+        <input class="input"type="text" placeholder="Last Name" [(ngModel)] = "lnam">
+        <input class="input"type="text" placeholder="Phone" [(ngModel)] = "phn">
+        <button id="button" class="btnn" (click) = "ser()">Search</button>
+        <button class="btnn" (click)="clr()" style="margin-left: 20px;">Clear</button>
+    </div>
+    <div class="div22">
+        <p id="pt">{{loginname}}, </p>
+          <p id="pt2">  {{locc}}, {{numm}}</p>
+    </div>
+</div>
+<div class="div3">
+    <a>Total Number Of patients : {{tnp}}</a><hr id="dd"><a (click)="sff()"><img src="https://cdn-icons-png.flaticon.com/128/1159/1159641.png" alt="" style="width: 1%;"></a>
+</div><br><br>
+<div id="filter" *ngIf="sf">
+    <select id="byp">
+        <option value="" selected disabled hidden  >By Price</option>
+          <option>Less that 10</option>
+          <option>11-30</option>
+          <option >31-100</option>
+          <option >101-200</option>
+          <option>201-500</option>
+        </select>
+        <button (click)="filt()" class="fflt"> Search</button> <button (click)="clr()" class="fflt" >Clear</button>
+</div>
+    <table cellspacing = "0" *ngIf="showP">
+        <tr>
+            <td>Patient Name</td>
+            <td>DOB</td>
+            <td>Address</td>
+            <td>Phone</td>
+            <td>Product</td>
+            <td>Product Price</td>
+        </tr>
+        <tr *ngFor = "let x of patientsData" >
+            <td>{{x.name}} {{x.lname}}</td>
+            <td>{{x.dob | date:"dd-MM-yyyy"}}</td>
+            <td>{{x.address}}</td>
+            <td>{{x.Phone}}</td>
+            <td>{{x.product}}</td>
+            <td>{{x.price}}</td>
+        </tr>
+    </table>
+    <table cellspacing = "0" *ngIf="ssh">
+        <tr>
+            <td>Patient Name</td>
+            <td>DOB</td>
+            <td>Address</td>
+            <td>Phone</td>
+            <td>Product</td>
+            <td>Product Price</td>
+        </tr>
+        <tr *ngFor = "let x of patient" >
+            <td>{{x.name}} {{x.lname}}</td>
+            <td>{{x.dob | date:"dd-MM-yyyy"}}</td>
+            <td>{{x.address}}</td>
+            <td>{{x.Phone}}</td>
+            <td>{{x.product}}</td>
+            <td>{{x.price}}</td>
+        </tr>
+    </table>
+    <table *ngIf="dnf">
+        <tr>
+            <td>Patient Name</td>
+            <td>DOB</td>
+            <td>Address</td>
+            <td>Phone</td>
+            <td>Product</td>
+            <td>Product Price</td>
+        </tr>
+        <tr >
+            <td colspan="6" >No Data Found</td>
+        </tr>
+
+    </table>
+</div>

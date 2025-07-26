@@ -1,0 +1,21 @@
+<header *ngIf="dis()">
+    <img src="https://mediclinic.qodeinteractive.com/wp-content/uploads/2017/05/logo-sidearea.png" alt="" [routerLink]="['/dash']">
+    <ul id="hed">
+        <li id="hli"><button class="hh1 btnn">IN</button></li>
+        <li id="hli"><button class="hh1 btnn" [routerLink]="['/entry']">DE</button></li>
+        <li id="hli"><button class="hh1 btnn">DR</button></li>
+        <li id="hli"><button class="hh1 btnn">AS</button></li>
+        <li id="hli"><button class="hh1 btnn">DLVR</button></li>
+    </ul>
+    <button id="ini" (click)="lgo()" class="btnn">{{initial}}</button>
+</header>
+<router-outlet></router-outlet>
+<footer *ngIf="dis()">
+     <ul>
+        <li class="fli">Hi, {{loginname}}</li>
+        <li class="fli">Location : {{locc}}</li>
+        <li class="fli">Phone : {{numm}}</li>
+        <li class="fli">Role : {{roll}}</li>
+        <li id="ffli">Current time : {{dd | date : 'short'}}</li>
+    </ul>
+</footer>

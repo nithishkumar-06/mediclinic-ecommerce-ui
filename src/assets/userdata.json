@@ -1,0 +1,399 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "nithishkumar",
+      "password": "12345",
+      "firstName": "Nithish",
+      "lastName": "kumar",
+      "email": "nk@gmail.com",
+      "number": "808425224",
+      "location": "Gingee",
+      "role": "Doctor"
+    },
+    {
+      "username": "admin",
+      "password": "54321",
+      "firstName": "admin",
+      "lastName": "!",
+      "email": "admin@gmail.com",
+      "number": "9944788811",
+      "location": "London",
+      "role": "Dean",
+      "id": 2
+    },
+    {
+      "username": "monishaav",
+      "password": "Aa1!",
+      "firstName": "Monisha",
+      "lastName": "AV",
+      "email": "monisha@gmail.com",
+      "number": "9876466234",
+      "location": "Chennai",
+      "role": "Doctor",
+      "id": 4
+    },
+    {
+      "username": "mathew",
+      "password": "1qa",
+      "firstName": "Mathew",
+      "lastName": "Jacob",
+      "email": "mjac@gmail.com",
+      "number": "9832891274",
+      "location": "London",
+      "role": "Head",
+      "id": 5
+    },
+    {
+      "username": "mathewjac",
+      "password": "12345",
+      "firstName": "Mathew",
+      "lastName": "Jacob",
+      "email": "mjac@gmail.com",
+      "number": "09832891274",
+      "location": "London",
+      "role": "Dean",
+      "id": 6
+    },
+    {
+      "username": "attackalwar",
+      "password": "bonk",
+      "firstName": "attack",
+      "lastName": "alwar",
+      "email": "attackalwar@gmail.com",
+      "number": "8072987623",
+      "location": "Mumbai",
+      "role": "EntryFragger",
+      "id": 7
+    }
+  ],
+  "patients": [
+    {
+      "name": "Rahul",
+      "lname": "G",
+      "dob": "1992-10-06",
+      "address": "Chennai",
+      "Phone": "97545677234",
+      "product": "Dolo-625",
+      "price": "30.00",
+      "id": 1
+    },
+    {
+      "name": "Kamal",
+      "lname": "T",
+      "dob": "1957-11-27",
+      "address": "Alwarpet",
+      "Phone": "705677234",
+      "product": "Thromoprobe",
+      "price": "500.00",
+      "id": 2
+    },
+    {
+      "name": "Rajni",
+      "lname": "R",
+      "dob": "1962-12-12",
+      "address": "Banglore",
+      "Phone": "8545677234",
+      "product": "Paracetamol",
+      "price": "70.00",
+      "id": 3
+    },
+    {
+      "name": "Vijay",
+      "lname": "C",
+      "dob": "1982-06-21",
+      "address": "Chennai",
+      "Phone": "8215677234",
+      "product": "Cipla",
+      "price": "70.00",
+      "id": 4
+    },
+    {
+      "name": "Raju",
+      "lname": "G",
+      "dob": "1996-08-21",
+      "address": "Madurai",
+      "Phone": "9754563334",
+      "product": "Crozin",
+      "price": "120.00",
+      "id": 5
+    },
+    {
+      "name": "Rahul",
+      "lname": "S",
+      "dob": "1996-08-21",
+      "address": "Madurai",
+      "Phone": "9754563334",
+      "product": "Crozin",
+      "price": "120.00",
+      "id": 5
+    }
+  ],
+  "cu": [],
+  "patientData": [
+    {
+      "name": "attack",
+      "patientDetails": {
+        "patientFirstName": "attack",
+        "patientLastName": "alwar",
+        "patientDOB": "2023-09-06",
+        "patientPhone": "08072987623",
+        "patientAddress": "London"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "NithishKumar",
+        "prescriberLastName": "G",
+        "prescriberDOB": "NY",
+        "prescriberPhone": "08072098347",
+        "prescriberAddress": "Chennai"
+      },
+      "productDetails": {
+        "productName": "Cipla",
+        "Dosage": "5",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 1
+    },
+    {
+      "name": "Mathew",
+      "patientDetails": {
+        "patientFirstName": "Mathew",
+        "patientLastName": "Jacob",
+        "patientDOB": "2023-09-07",
+        "patientPhone": "09832891274",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "attack",
+        "prescriberLastName": "anwar",
+        "prescriberDOB": "New York",
+        "prescriberPhone": "08072987623",
+        "prescriberAddress": "Antartica"
+      },
+      "productDetails": {
+        "productName": "Crozin",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Head"
+      },
+      "id": 2
+    },
+    {
+      "name": "Kamal",
+      "patientDetails": {
+        "patientFirstName": "Kamal",
+        "patientLastName": "Haasan",
+        "patientDOB": "1960-12-11",
+        "patientPhone": "8024828493",
+        "patientAddress": "Alwarpet"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Maaran",
+        "prescriberLastName": "V",
+        "prescriberDOB": "Adyar",
+        "prescriberPhone": "9087567892",
+        "prescriberAddress": "Chennai"
+      },
+      "productDetails": {
+        "productName": "Benendryl",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 3
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "NithishKumar",
+        "patientLastName": "G",
+        "patientDOB": "",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "",
+        "prescriberLastName": "",
+        "prescriberDOB": "",
+        "prescriberPhone": "",
+        "prescriberAddress": ""
+      },
+      "productDetails": {
+        "productName": "",
+        "Dosage": "",
+        "refillCount": "",
+        "Direction": ""
+      },
+      "id": 4
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "Nithish",
+        "patientLastName": "G",
+        "patientDOB": "2023-09-06",
+        "patientPhone": "09087567892",
+        "patientAddress": "London"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Mathew",
+        "prescriberLastName": "Jacob",
+        "prescriberDOB": "Canada",
+        "prescriberPhone": "09832891274",
+        "prescriberAddress": "Chennai"
+      },
+      "productDetails": {
+        "productName": "Crozin",
+        "Dosage": "",
+        "refillCount": "",
+        "Direction": ""
+      },
+      "id": 5
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "Nithish",
+        "patientLastName": "G",
+        "patientDOB": "2023-09-13",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "attack",
+        "prescriberLastName": "alwar",
+        "prescriberDOB": "A",
+        "prescriberPhone": "08072987623",
+        "prescriberAddress": "London"
+      },
+      "productDetails": {
+        "productName": "Crozin",
+        "Dosage": "3",
+        "refillCount": "2",
+        "Direction": "Mouth"
+      },
+      "id": 6
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "NithishKumar",
+        "patientLastName": "G",
+        "patientDOB": "2023-10-04",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Mathew",
+        "prescriberLastName": "Jacob",
+        "prescriberDOB": "Adyar",
+        "prescriberPhone": "09832891274",
+        "prescriberAddress": "Chennai"
+      },
+      "productDetails": {
+        "productName": "Benendryl",
+        "Dosage": "3",
+        "refillCount": "4",
+        "Direction": "Mouth"
+      },
+      "id": 7
+    },
+    {
+      "name": "Kamal",
+      "patientDetails": {
+        "patientFirstName": "Kamal",
+        "patientLastName": "Haasan",
+        "patientDOB": "2023-10-18",
+        "patientPhone": "08024828493",
+        "patientAddress": "Alwarpet"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Mark",
+        "prescriberLastName": "Antony",
+        "prescriberDOB": "Mumbai",
+        "prescriberPhone": "09876466234",
+        "prescriberAddress": "India"
+      },
+      "productDetails": {
+        "productName": "Crozin",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 8
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "Nithish Kumar",
+        "patientLastName": "G",
+        "patientDOB": "",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Mathew",
+        "prescriberLastName": "Jacob",
+        "prescriberDOB": "",
+        "prescriberPhone": "09832891274",
+        "prescriberAddress": "Chennai"
+      },
+      "productDetails": {
+        "productName": "Crozin",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 9
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "NithishKumar",
+        "patientLastName": "G",
+        "patientDOB": "2023-10-11",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Kamal",
+        "prescriberLastName": "Haasan",
+        "prescriberDOB": "Chennai",
+        "prescriberPhone": "08024828493",
+        "prescriberAddress": "Alwarpet"
+      },
+      "productDetails": {
+        "productName": "Benendryl",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 10
+    },
+    {
+      "name": "NithishKumar",
+      "patientDetails": {
+        "patientFirstName": "Nithish",
+        "patientLastName": "G",
+        "patientDOB": "2023-10-17",
+        "patientPhone": "08072098347",
+        "patientAddress": "Chennai"
+      },
+      "prescriberDetails": {
+        "prescriberFirstName": "Kamal",
+        "prescriberLastName": "Haasan",
+        "prescriberDOB": "Chennai",
+        "prescriberPhone": "08024828493",
+        "prescriberAddress": "Alwarpet"
+      },
+      "productDetails": {
+        "productName": "Benendryl",
+        "Dosage": "3",
+        "refillCount": "10",
+        "Direction": "Mouth"
+      },
+      "id": 11
+    }
+  ]
+}
